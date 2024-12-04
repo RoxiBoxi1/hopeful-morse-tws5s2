@@ -1,0 +1,32 @@
+{
+  "name": "tsx-editor-demo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "",
+  "scripts": {
+    "start": "just-scripts start",
+    "build": "just-scripts build"
+  },
+  "dependencies": {
+    "@uifabric/tsx-editor": "0.7.2",
+    "office-ui-fabric-react": "^7.37.1",
+    "monaco-editor": "0.17.1",
+    "react": "~16.8.0",
+    "react-dom": "~16.8.0",
+    "lucide-react": "0.465.0"
+  },
+  "devDependencies": {
+    "@types/react": "~16.8.0",
+    "@types/react-dom": "~16.8.0",
+    "just-scripts": "~0.31.1",
+    "raw-loader": "3.1.0",
+    "source-map-loader": "0.2.4",
+    "ts-loader": "6.2.0",
+    "typescript": "3.6.3",
+    "webpack-cli": "3.3.9",
+    "webpack-dev-server": "3.8.1",
+    "webpack-merge": "4.2.2",
+    "webpack": "4.41.0"
+  },
+  "keywords": []
+}

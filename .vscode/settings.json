@@ -1,0 +1,36 @@
+{
+  // Controls the rendering size of tabs in characters.
+  "editor.tabSize": 2,
+  // When opening a file, `editor.tabSize` and `editor.insertSpaces` will NOT be detected based on the file contents.
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  // When enabled, will trim trailing whitespace when you save a file.
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  // Controls whether the editor should render whitespace characters
+  "editor.renderWhitespace": "all",
+  // Controls if the editor will insert spaces for tabs.
+  "editor.insertSpaces": true,
+  "search.exclude": {
+    "**/lib": true,
+    "**/dist": true
+  },
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+  "typescript.preferences.quoteStyle": "single",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
